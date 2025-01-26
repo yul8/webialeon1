@@ -1,9 +1,9 @@
 /*-----------------------------------------------------------------
-Theme Name: Neotech
+Theme Name: Niotech
 Author: Gramentheme
 Author URI: https://themeforest.net/user/gramentheme
 Version: 1.0.0 
-Description: Neotech - App Landing HTML Template <
+Description: Niotech - App Landing HTML Template <
 
 -------------------------------------------------------------------
  CSS TABLE OF CONTENTS
@@ -710,7 +710,7 @@ input[type=radio]:checked ~ label::before {
 /*----------------------------------------------
     # Container  style here
 ----------------------------------------------*/
-@media (min-width: 1650px) {
+@media (min-width: 550px) {
   .header-1 .container {
     max-width: 1620px;
   }
@@ -6205,6 +6205,29 @@ input.main-search-input::placeholder {
 }
 .hero-3 .hero-image {
   margin-right: -60%;
+  position: relative;
+}
+.hero-3 .hero-image .mobile-image {
+  position: absolute;
+  bottom: 0;
+  left: -60px;
+  max-width: 180px;
+}
+@media (max-width: 1399px) {
+  .hero-3 .hero-image .mobile-image {
+    max-width: 140px;
+    left: 0;
+  }
+}
+@media (max-width: 1199px) {
+  .hero-3 .hero-image .mobile-image {
+    max-width: 180px;
+  }
+}
+@media (max-width: 767px) {
+  .hero-3 .hero-image .mobile-image {
+    max-width: 100px;
+  }
 }
 @media (max-width: 1199px) {
   .hero-3 .hero-image {
