@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--<< Header Area >>-->
+
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="WebiaLeon">
+    <meta name="description"
+          content="WebiaLeon - Impulsa tu negocio con soluciones digitales de marketing, diseño web y visibilidad local en León, España.">
+    <!-- ======== Page title ============ -->
+    <title>WebiaLeon - Soluciones Digitales para Pymes en León</title>
+    <!--<< Favcion >>-->
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <!--<< Bootstrap min.css >>-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--<< All Min Css >>-->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!--<< Animate.css >>-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!--<< Magnific popup.css >>-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!--<< MeanMenu.css >>-->
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <!--<< Swiper Bundle.css >>-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!--<< NiceSelect.css >>-->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <!--<< Main.css >>-->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+
+<!-- Preloader Start -->
+<div id="preloader" class="preloader">
+    <div class="animation-preloader">
+        <div class="spinner"></div>
+        <div class="txt-loading">
+            <!-- Adapt the letters below to match your brand.
+                 We only have 7 placeholders by default, so "Webiale" is a neat solution. -->
+            <span data-text-preloader="W" class="letters-loading">W</span>
+            <span data-text-preloader="e" class="letters-loading">e</span>
+            <span data-text-preloader="b" class="letters-loading">b</span>
+            <span data-text-preloader="i" class="letters-loading">i</span>
+            <span data-text-preloader="a" class="letters-loading">a</span>
+        </div>
+        <p class="text-center">Cargando</p>
+    </div>
+    <div class="loader">
+        <div class="row">
+            <div class="col-3 loader-section section-left">
+                <div class="bg"></div>
+            </div>
+            <div class="col-3 loader-section section-left">
+                <div class="bg"></div>
+            </div>
+            <div class="col-3 loader-section section-right">
+                <div class="bg"></div>
+            </div>
+            <div class="col-3 loader-section section-right">
+                <div class="bg"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Preloader End -->
+
+<!-- Mouse Cursor Start -->
+<div class="mouse-cursor cursor-outer"></div>
+<div class="mouse-cursor cursor-inner"></div>
+<!-- Mouse Cursor End -->
+
+<!-- Back To Top Start -->
+<button id="back-top" class="back-to-top">
+    <i class="fa-solid fa-chevron-up"></i>
+</button>
+<!-- Back To Top End -->
+
+<!-- Offcanvas Area Start -->
+<div class="fix-area">
+    <div class="offcanvas__info">
+        <div class="offcanvas__wrapper">
+            <div class="offcanvas__content">
+                <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+                    <div class="offcanvas__logo">
+                        <a href="index.html">
+                            <img src="assets/images/logo/logo.svg" class="img-fluid w-50" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="offcanvas__close">
+                        <button>
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                </div>
+                <p class="text d-none d-xl-block">
+                    Somos WebiaLeon, tu aliado digital para impulsar negocios locales.
+                    Ofrecemos diseño web, marketing digital y soluciones para expandir
+                    tu presencia en el mercado de forma sencilla y efectiva.
+                </p>
+                <div class="mobile-menu fix mb-3"></div>
+                <div class="offcanvas__contact">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li class="d-flex align-items-center">
+                            <div class="offcanvas__contact-icon">
+                                <i class="fal fa-map-marker-alt"></i>
+                            </div>
+                            <div class="offcanvas__contact-text">
+                                <a href="#" target="_blank">León, España</a>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <div class="offcanvas__contact-icon mr-15">
+                                <i class="fal fa-envelope"></i>
+                            </div>
+                            <div class="offcanvas__contact-text">
+                                <a href="mailto:info@webialeon.com">
+                                    info@webialeon.com
+                                </a>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <div class="offcanvas__contact-icon mr-15">
+                                <i class="fal fa-clock"></i>
+                            </div>
+                            <div class="offcanvas__contact-text">
+                                <a href="#" target="_blank">Todo los dias, 4 - 8</a>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <div class="offcanvas__contact-icon mr-15">
+                                <i class="far fa-phone"></i>
+                            </div>
+                            <div class="offcanvas__contact-text">
+                                <a href="tel:+34600000000">+34 691 720 105</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="header-button mt-4">
+                        <a href="contact.html" class="theme-btn text-center">
+                            <span>Solicita una Cotización <i class="fa-solid fa-arrow-right-long"></i></span>
+                        </a>
+                    </div>
+                    <!--                    <div class="social-icon d-flex align-items-center">-->
+                    <!--                        <a href="#"><i class="fab fa-facebook-f"></i></a>-->
+                    <!--                        <a href="#"><i class="fab fa-twitter"></i></a>-->
+                    <!--                        <a href="#"><i class="fab fa-youtube"></i></a>-->
+                    <!--                        <a href="#"><i class="fab fa-linkedin-in"></i></a>-->
+                    <!--                    </div>-->
+                </div>
+                <!-- offcanvas__contact -->
+            </div>
+        </div>
+    </div>
+</div>
+<div class="offcanvas__overlay"></div>
+<!-- Offcanvas Area End -->
+
+<!-- Header Section Start -->
+<header class="header-section-2">
+    <div id="header-sticky" class="header-2">
+        <div class="container">
+            <div class="mega-menu-wrapper ">
+                <div class="header-main ">
+                    <div class="header-left">
+                        <div class="logo">
+                            <a href="index.html" class="header-logo">
+                                <img src="assets/images/logo/1.webp" class="img-fluid w-25" alt="Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header-middle">
+                        <div class="mean__menu-wrapper">
+                            <div class="main-menu">
+                                <nav id="mobile-menu">
+                                    <ul>
+                                        <!--                                                                                <li class="has-dropdown active menu-thumb">-->
+                                        <!--                                                                                    <a href="/">-->
+                                        <!--                                                                                        Inicio-->
+                                        <!--                                                                                        <i class="fas fa-angle-down"></i>-->
+                                        <!--                                                                                    </a>-->
+                                        <!--&lt;!&ndash;                                            <ul class="submenu has-homemenu">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                <li>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                    <div class="homemenu-items">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                        <div class="homemenu">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                            <div class="homemenu-thumb">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                <img src="assets/images/header/home-1.png" alt="img">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                <div class="demo-button">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                    <a class="theme-btn" href="index.html">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                        Multi Página&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                    </a>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                    <a class="theme-btn" href="index-one-page.html">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                        Página Única&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                    </a>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                </div>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                            </div>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                            <div class="homemenu-content text-center">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                <h4 class="homemenu-title">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                    Versión 1&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                </h4>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                            </div>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                        </div>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                        <div class="homemenu">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                            <div class="homemenu-thumb mb-15">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                <img src="assets/images/header/home-2.png" alt="img">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                <div class="demo-button">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                    <a class="theme-btn" href="index.html">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                        Multi Página&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                    </a>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                    <a class="theme-btn" href="index-two-page.html">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                        Página Única&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                    </a>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                </div>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                            </div>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                            <div class="homemenu-content text-center">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                <h4 class="homemenu-title">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                    Versión 2&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                </h4>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                            </div>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                        </div>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                        <div class="homemenu">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                            <div class="homemenu-thumb mb-15">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                <img src="assets/images/header/home-3.png" alt="img">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                <div class="demo-button">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                    <a class="theme-btn" href="index3.html">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                        Multi Página&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                    </a>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                    <a class="theme-btn" href="index-three-page.html">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                        Página Única&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                    </a>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                </div>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                            </div>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                            <div class="homemenu-content text-center">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                <h4 class="homemenu-title">&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                    Versión 3&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                                </h4>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                            </div>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                        </div>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                    </div>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                                </li>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;                                            </ul>&ndash;&gt;-->
+                                        <!--                                                                                </li>-->
+                                        <!--                                        &lt;!&ndash; Submenu for mobile &ndash;&gt;-->
+                                        <!--                                        <li class="has-dropdown active d-xl-none">-->
+                                        <!--                                            <a href="index.html" class="border-none">-->
+                                        <!--                                                Inicio-->
+                                        <!--                                                <i class="fa-regular fa-plus"></i>-->
+                                        <!--                                            </a>-->
+
+                                        <!--                                        </li>-->
+                                        <!--                                        <li>-->
+                                        <!--                                            <a href="about.html">Quiénes Somos</a>-->
+                                        <!--                                        </li>-->
+                                        <!--                                        <li>-->
+                                        <!--                                            <a href="services.html">-->
+                                        <!--                                                Servicios-->
+                                        <!--                                                <i class="fas fa-angle-down"></i>-->
+                                        <!--                                            </a>-->
+                                        <!--                                            <ul class="submenu">-->
+                                        <!--                                                <li><a href="services.html">Todos los Servicios</a></li>-->
+                                        <!--                                                <li><a href="service-details.html">Detalles de Servicio</a></li>-->
+                                        <!--                                            </ul>-->
+                                        <!--                                        </li>-->
+                                        <li>
+                                            <a href="Precios.html">
+                                                Precios
+                                            </a>
+                                        </li>
+                                        <!--                                        <li class="has-dropdown">-->
+                                        <!--                                            <a href="#">-->
+                                        <!--                                                Páginas-->
+                                        <!--                                                <i class="fas fa-angle-down"></i>-->
+                                        <!--                                            </a>-->
+                                        <!--                                            <ul class="submenu">-->
+                                        <!--                                                <li class="has-dropdown">-->
+                                        <!--                                                    <a href="project1.html">-->
+                                        <!--                                                        Proyectos-->
+                                        <!--                                                        <i class="fas fa-angle-down"></i>-->
+                                        <!--                                                    </a>-->
+                                        <!--                                                    <ul class="submenu">-->
+                                        <!--                                                        <li><a href="project1.html">Proyectos 01</a></li>-->
+                                        <!--                                                        <li><a href="project2.html">Proyectos 02</a></li>-->
+                                        <!--                                                        <li><a href="project-details.html">Detalles Proyecto</a></li>-->
+                                        <!--                                                    </ul>-->
+                                        <!--                                                </li>-->
+                                        <!--                                                <li class="has-dropdown">-->
+                                        <!--                                                    <a href="team.html">-->
+                                        <!--                                                        Equipo-->
+                                        <!--                                                        <i class="fas fa-angle-down"></i>-->
+                                        <!--                                                    </a>-->
+                                        <!--                                                    <ul class="submenu">-->
+                                        <!--                                                        <li><a href="team.html">Nuestro Equipo</a></li>-->
+                                        <!--                                                        <li><a href="team-details.html">Detalles del Equipo</a></li>-->
+                                        <!--                                                    </ul>-->
+                                        <!--                                                </li>-->
+                                        <!--                                                <li><a href="faq.html">Preguntas Frecuentes</a></li>-->
+                                        <!--                                            </ul>-->
+                                        <!--                                        </li>-->
+
+                                        <!--                                        <li>-->
+                                        <!--                                            <a href="contact.html">Contáctanos</a>-->
+                                        <!--                                        </li>-->
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-right d-flex justify-content-end align-items-center">
+
+                        <div class="header-button ms-4">
+                            <a href="#" class="theme-btn">
+                                    <span>
+                                        Empezar
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </span>
+                            </a>
+                        </div>
+                        <div class="header__hamburger d-block d-xl-none my-auto">
+                            <div class="sidebar__toggle">
+                                <i class="fas fa-bars"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- header-right -->
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Search Area Start -->
+<div class="search-wrap">
+    <div class="search-inner">
+        <i class="fas fa-times search-close" id="search-close"></i>
+        <div class="search-cell">
+            <form method="get">
+                <div class="search-field-holder">
+                    <input type="search" class="main-search-input" placeholder="Search...">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Breadcumb Section S T A R T -->
+<div class="breadcumb-section fix">
+    <div class="breadcumb-container-wrapper" data-bg-src="assets/images/bg/breadcumgBg.png">
+        <div class="container">
+            <div class="shape1"><img src="assets/images/shape/breadCumbShape1_1.png" alt="shape"></div>
+            <div class="shape2"><img src="assets/images/shape/breadCumbShape1_2.png" alt="shape"></div>
+            <div class="breadcumb-wrapper">
+                <div class="page-heading">
+                    <h1>Precios</h1>
+                    <div class="links">
+                        <a href="index.html">Inicio<span class="slash">/</span></a>Precios
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Pricing Section S T A R T -->
+<section class="pricing-section section-padding fix">
+    <div class="container">
+        <div class="section-title text-center mxw-685 mx-auto">
+            <div class="subtitle">
+                Nuestros Precios <img src="assets/images/icon/fireIcon.svg" alt="icon">
+            </div>
+            <h2 class="title">Elige el plan perfecto para tu negocio</h2>
+            <p class="text">Planes accesibles sin suscripciones innecesarias. Crece tu presencia online con Webia
+                León.</p>
+        </div>
+        <div class="pricing-wrapper style1">
+            <div class="row gy-5">
+                <!-- Plan 1: Pack Presencia Online -->
+                <div class="col-xl-4 col-md-6">
+                    <div class="pricing-card style1">
+                        <div class="pricing-card-header">
+                            <h6>Pack Presencia Online</h6>
+                            <div class="price-wrapper">
+                                <span class="price">199€</span> <span class="text">Pago único</span>
+                            </div>
+                            <p class="text">Para negocios que necesitan visibilidad inmediata en Internet.</p>
+                        </div>
+                        <div class="pricing-card-body">
+                            <ul class="checklist">
+                                <li>🌐 Creación de página web (HTML, CSS, JavaScript)</li>
+                                <li>📍 Configuración de Google Business Profile</li>
+                                <li>📌 Integración con Google Maps y WhatsApp</li>
+                                <li>🔎 Optimización SEO inicial</li>
+                                <li>🚀 Hosting gratuito en GitHub o Netlify</li>
+                            </ul>
+                        </div>
+                        <a class="theme-btn style5" href="Precios.html"> Empieza ahora </a>
+                    </div>
+                </div>
+
+                <!-- Plan 2: Pack Crecimiento Digital -->
+                <div class="col-xl-4 col-md-6">
+                    <div class="pricing-card style1">
+                        <div class="pricing-card-header">
+                            <h6>Pack Crecimiento Digital</h6>
+                            <div class="price-wrapper">
+                                <span class="price">399€</span> <span class="text">Pago único</span>
+                            </div>
+                            <p class="text">Para negocios que buscan atraer clientes de forma continua.</p>
+                        </div>
+                        <div class="pricing-card-body">
+                            <ul class="checklist">
+                                <li>📌 Todo lo del Pack Presencia Online</li>
+                                <li>📲 Creación y gestión de redes sociales</li>
+                                <li>📅 10 publicaciones optimizadas al mes</li>
+                                <li>🔍 Optimización SEO Local avanzada</li>
+                                <li>📊 Reporte mensual de tráfico y rendimiento</li>
+                            </ul>
+                        </div>
+                        <a class="theme-btn style4" href="Precios.html"> Atrae más clientes </a>
+                    </div>
+                </div>
+
+                <!-- Plan 3: Pack Dominio Total -->
+                <div class="col-xl-4 col-md-6">
+                    <div class="pricing-card style1">
+                        <div class="pricing-card-header">
+                            <h6>Pack Dominio Total</h6>
+                            <div class="price-wrapper">
+                                <span class="price">799€</span> <span class="text">/ mes</span>
+                            </div>
+                            <p class="text">Para negocios que quieren dominar su mercado y escalar sus ventas.</p>
+                        </div>
+                        <div class="pricing-card-body">
+                            <ul class="checklist">
+                                <li>🚀 Todo lo del Pack Crecimiento Digital</li>
+                                <li>🎯 Estrategia SEO avanzada para Google</li>
+                                <li>📢 Publicidad efectiva en Google y Facebook Ads</li>
+                                <li>📩 Email Marketing y automatización</li>
+                                <li>🧑‍💼 Coaching y asesoría en marketing digital</li>
+                            </ul>
+                        </div>
+                        <a class="theme-btn style5" href="Precios.html"> Escala tu negocio </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Pricing Section E N D -->
+
+<!-- Footer Section START -->
+<footer class="footer-section position-relative">
+    <div class="footer-widgets-wrapper style1 fix">
+        <div class="shape1"><img src="assets/images/shape/footerShape1_1.png" alt="shape"></div>
+        <div class="shape2"><img src="assets/images/shape/footerShape1_2.png" alt="shape"></div>
+        <div class="shape3"><img src="assets/images/shape/footerShape1_3.png" alt="shape"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                    <div class="single-footer-widget">
+                        <div class="widget-head">
+                            <a href="index.html">
+                                <img src="assets/images/logo/logo2.png" class="img-fluid w-50" alt="Logo">
+                            </a>
+                        </div>
+                        <div class="footer-content">
+                            <p>
+                                WebiaLeon es tu socio digital en León, España. Impulsamos negocios locales
+                                a través de diseño web, marketing digital y más.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".4s">
+                    <div class="single-footer-widget">
+                        <div class="widget-head">
+                            <h3>Páginas</h3>
+                        </div>
+                        <ul class="list-area">
+
+                            <!--                            <li>-->
+                            <!--                                <a href="about.html">Quiénes Somos</a>-->
+                            <!--                            </li>-->
+                            <li>
+                                <a href="project1.html">Proyectos</a>
+                            </li>
+                            <li>
+                                <a href="services.html">Servicios</a>
+                            </li>
+                            <li>
+                                <a href="Precios.html">Precios</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contáctanos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
+                    <div class="single-footer-widget">
+                        <div class="widget-head">
+                            <!--                            <h3>Utilidades</h3>-->
+                        </div>
+                        <!--                        <ul class="list-area">-->
+                        <!--                            <li><a href="project1.html">Proyectos</a></li>-->
+                        <!--                            <li><a href="blog.html">Blog</a></li>-->
+                        <!--                            <li><a href="contact.html">Contacto</a></li>-->
+                        <!--                            <li><a href="Precios.html">Precios</a></li>-->
+                        <!--                            <li><a href="project-details.html">Detalles Proyecto</a></li>-->
+                        <!--                            <li><a href="team.html">Nuestro Equipo</a></li>-->
+                        <!--                        </ul>-->
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="single-footer-widget">
+                        <div class="contact-box">
+                            <div class="subtitle">Dirección</div>
+                            <div class="widget-head">¡Listos para comenzar!</div>
+                            <div class="text">
+                                Estamos ubicados en León, listos para ayudar a tu pyme a destacar en línea.
+                                Contáctanos y descubre cómo podemos trabajar juntos.
+                            </div>
+                            <div class="info">
+                                <div class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="23"
+                                         viewBox="0 0 22 23" fill="none">
+                                        <path d="M3.66671 4.16699H18.3334C19.3417 4.16699 20.1667 4.99199 20.1667 6.00033V17.0003C20.1667 18.0087 19.3417 18.8337 18.3334 18.8337H3.66671C2.65837 18.8337 1.83337 18.0087 1.83337 17.0003V6.00033C1.83337 4.99199 2.65837 4.16699 3.66671 4.16699Z"
+                                              stroke="#5236FF" stroke-width="2" stroke-linecap="round"
+                                              stroke-linejoin="round"/>
+                                        <path d="M20.1667 6L11 12.4167L1.83337 6" stroke="#5236FF" stroke-width="2"
+                                              stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                                <div class="link">
+                                    <a href="mailto:info@webialeon.com">info@webialeon.com</a>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="23"
+                                         viewBox="0 0 22 23" fill="none">
+                                        <g clip-path="url(#clip0_2011_91)">
+                                            <path d="M13.7959 5.08366C14.6912 5.25834 15.514 5.69623 16.1591 6.34127C16.8041 6.9863 17.242 7.80915 17.4167 8.70449L13.7959 5.08366ZM13.7959 1.41699C15.656 1.62364 17.3906 2.45665 18.7149 3.77925C20.0392 5.10185 20.8744 6.83542 21.0834 8.69533L13.7959 1.41699ZM20.1667 16.0103V18.7603C20.1677 19.0156 20.1154 19.2683 20.0132 19.5022C19.9109 19.7361 19.7609 19.9461 19.5728 20.1187C19.3846 20.2913 19.1625 20.4227 18.9207 20.5045C18.6789 20.5863 18.4226 20.6166 18.1684 20.5937C15.3476 20.2872 12.6381 19.3233 10.2575 17.7795C8.0427 16.3721 6.16491 14.4943 4.75752 12.2795C3.20833 9.8881 2.24424 7.1654 1.94335 4.33199C1.92045 4.0785 1.95057 3.82302 2.03181 3.58181C2.11305 3.34061 2.24363 3.11896 2.41522 2.93098C2.58682 2.743 2.79567 2.59281 3.0285 2.48997C3.26132 2.38713 3.513 2.3339 3.76752 2.33366H6.51752C6.96238 2.32928 7.39366 2.48681 7.73097 2.7769C8.06827 3.06698 8.28859 3.46982 8.35085 3.91033C8.46692 4.79039 8.68218 5.65449 8.99252 6.48616C9.11585 6.81426 9.14254 7.17083 9.06943 7.51363C8.99632 7.85643 8.82648 8.17109 8.58002 8.42033L7.41585 9.58449C8.72078 11.8794 10.6209 13.7796 12.9159 15.0845L14.08 13.9203C14.3293 13.6739 14.6439 13.504 14.9867 13.4309C15.3295 13.3578 15.6861 13.3845 16.0142 13.5078C16.8459 13.8182 17.71 14.0334 18.59 14.1495C19.0353 14.2123 19.442 14.4366 19.7327 14.7797C20.0234 15.1228 20.1778 15.5608 20.1667 16.0103Z"
+                                                  stroke="#5236FF" stroke-width="2" stroke-linecap="round"
+                                                  stroke-linejoin="round"/>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2011_91">
+                                                <rect width="22" height="22" fill="white" transform="translate(0 0.5)"/>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <div class="link">
+                                    <a href="tel:+34691720105">+34 691 720 105</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom style1">
+        <div class="container">
+            <div class="footer-wrapper d-flex align-items-center justify-content-between">
+                <p class="wow fadeInLeft" data-wow-delay=".3s">
+                    Copyright © WebiaLeon. Todos los derechos reservados.
+                </p>
+                <ul class="social-links" data-wow-delay=".5s">
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!--<< All JS Plugins >>-->
+<script src="assets/js/jquery-3.7.1.min.js"></script>
+<!--<< Bootstrap Js >>-->
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<!--<< Waypoints Js >>-->
+<script src="assets/js/jquery.waypoints.js"></script>
+<!--<< Counterup Js >>-->
+<script src="assets/js/jquery.counterup.min.js"></script>
+<!--<< Viewport Js >>-->
+<script src="assets/js/viewport.jquery.js"></script>
+<!--<< Tilt Js >>-->
+<script src="assets/js/tilt.min.js"></script>
+<!--<< Swiper Slider Js >>-->
+<script src="assets/js/swiper-bundle.min.js"></script>
+<!--<< MeanMenu Js >>-->
+<script src="assets/js/jquery.meanmenu.min.js"></script>
+<!--<< Magnific popup Js >>-->
+<script src="assets/js/magnific-popup.min.js"></script>
+<!--<< Wow Animation Js >>-->
+<script src="assets/js/wow.min.js"></script>
+<!--<< NIce Select Js >>-->
+<script src="assets/js/nice-select.min.js"></script>
+<!--<< Main.js >>-->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
